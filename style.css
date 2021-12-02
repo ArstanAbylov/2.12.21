@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* body {
+    background-color: tomato;
+}
+
+@media(max-width:800px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media(max-width:700px) and (min-width:700px) {
+    body {
+        background-color: aqua;
+    }
+} */
+
+.grid-example {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-example div {
+    padding: .5rem;
+    flex: 0 0 25%;
+}
+
+@media(max-width:900px) {
+    .grid-example div {
+        flex: 33.333333%;
+    }
+}
+
+@media(max-width:780px) {
+    .grid-example div {
+        flex: 50%;
+    }
+}
+
+@media(max-width:565px) {
+    .grid-example div {
+        flex: 100%;
+    }
+}
