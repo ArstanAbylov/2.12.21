@@ -1,0 +1,180 @@
+body {
+    background: #E5E5E5;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    padding: 30px;
+}
+
+a {
+    color: #000;
+    text-align: center;
+    display: flex;
+}
+
+button {
+    height: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    transform: translate( -90%);
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: #D1A954;
+    text-decoration: 1px solid #D1A954;
+}
+
+.icon {
+    width: 60px;
+    height: 40px;
+    padding: 30px;
+}
+
+.sof {
+    color: #D1A954;
+}
+
+.image {
+    background-image: url("rectangle 2.png");
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    background-image: url("Rectangle 2 (1).png");
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.image3 {
+    background-image: url("Rectangle 2 (2).png");
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    height: 30px;
+    width: 53.6vh;
+    color: white;
+    background-color: #D1A954;
+    background: rgba(209, 169, 84, 0.9);
+}
+
+.sva {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    height: 30px;
+    width: 53.6vh;
+    color: white;
+}
+
+.zva {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    height: 30px;
+    width: 53.6vh;
+    color: white;
+}
+
+.conteiner {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex: 1 0 0;
+}
+
+[class^="col"] {
+    padding: 0.5rem;
+}
+
+.col-1 {
+    flex: 0 0 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+}
+
+.col-4 {
+    flex: 0 0 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 66.666666667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
